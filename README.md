@@ -1,9 +1,29 @@
-# 🚀 Customer Churn Copilot
+# Customer Churn Copilot
 
-An end-to-end ML-powered Streamlit application that predicts customer churn, explains key drivers, and generates retention strategies.
+An end-to-end Machine Learning web application built with Streamlit that predicts customer churn, identifies key drivers, and suggests retention strategies.
 
+🔗 Deployed on Streamlit Cloud
+📊 Built using XGBoost and
+🧠 Includes cross-validation and feature importance analysis
 ---
 
+📌 Project Overview
+
+Customer churn is one of the biggest challenges for subscription-based businesses.
+
+This app allows users to:
+
+-Upload a churn dataset (CSV)
+-Train an XGBoost model dynamically
+-Perform 5-fold cross-validation
+-Predict churn probability for individual customers
+-Visualize feature importance
+-Estimate revenue at risk
+-Generate retention strategies
+
+
+
+---
 ## 📌 Features
 
 - Upload custom churn dataset (CSV)
@@ -18,34 +38,53 @@ An end-to-end ML-powered Streamlit application that predicts customer churn, exp
 
 ## 🧠 Tech Stack
 
-- Python
-- Streamlit
-- XGBoost
-- Scikit-learn
-- Pandas
-- NumPy
+-Python
+-Streamlit
+-XGBoost
+-Scikit-learn
+-Pandas
+-NumPy
+-Altair
 
 ---
 
 ## 📂 Project Structure
-
-customer_churn_project/
+```bash
+customer_churn_copilot/
 │
 ├── app.py
-├── churn_data.csv
 ├── requirements.txt
+├── runtime.txt
 ├── README.md
-├── .gitignore
-└── models/
+└── .gitignore
+```
 
 ---
 
 ## ⚙️ Installation
 
+### Cloning Git Repository
 ```bash
-git clone <your-repo-link>
-cd customer_churn_project
+git clone https://github.com/your-username/customer_churn_copilot.git
+cd customer_churn_copilot
+```
+
+### Create Environment
+```bash
 python -m venv venv
-venv\Scripts\activate   # Windows
+```
+
+### Activate Environment
+```bash
+.\venv\Scripts\Activate.ps1   # Windows
+source venv/bin/activate  #macOS / Linux
+```
+### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+### Run the App
+```bash
+streamlit run app.py
+```
 streamlit run app.py
