@@ -59,6 +59,9 @@ customer_churn_copilot/
 ├── README.md
 └── .gitignore
 ```
+---
+## Demo 
+![Demo](demo/customer_churn_copilot_demo.gif)
 
 ---
 
