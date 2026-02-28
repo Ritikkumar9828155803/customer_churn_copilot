@@ -1,10 +1,11 @@
 # Customer Churn Copilot
 
 An end-to-end Machine Learning web application built with Streamlit that predicts customer churn, identifies key drivers, and suggests retention strategies.
-
+```bash
 🔗 Deployed on Streamlit Cloud
 📊 Built using XGBoost and
 🧠 Includes cross-validation and feature importance analysis
+```
 ---
 
 📌 Project Overview
@@ -87,4 +88,4 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-streamlit run app.py
+
